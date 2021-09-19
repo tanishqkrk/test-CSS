@@ -1,3 +1,16 @@
+@media (max-width: 500px) {
+
+    .links,
+    .contact {
+        display: none;
+    }
+
+    div.ham {
+        display: block;
+    }
+
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -16,4 +29,27 @@
     margin: 5px;
     border: 1px solid black;
     /* width: 100%; */
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ham {
+    display: none;
+    transition: 0.5s;
+}
+
+.ham:hover {
+    transform: scale(1.2);
 }
