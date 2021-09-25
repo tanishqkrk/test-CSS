@@ -7,3 +7,7 @@
 .card__title {
     background-color: rgb(216, 216, 216);
 }
+
+.card-margin {
+    margin: 10px;
+}
