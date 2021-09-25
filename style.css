@@ -1,55 +1,9 @@
-@media (max-width: 500px) {
-
-    .links,
-    .contact {
-        display: none;
-    }
-
-    div.ham {
-        display: block;
-    }
-
+.head {
+    text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: flex-start; */
-    align-content: center;
-}
 
-.img {
-    /* width: 100%; */
-    /* margin: 5px; */
-    /* border: 1px solid black; */
-}
 
-.element {
-    padding: 0;
-    margin: 5px;
-    border: 1px solid black;
-    /* width: 100%; */
-}
-
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-container {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.ham {
-    display: none;
-    transition: 0.5s;
-}
-
-.ham:hover {
-    transform: scale(1.2);
+.card__title {
+    background-color: rgb(216, 216, 216);
 }
